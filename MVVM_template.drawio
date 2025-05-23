@@ -1,11 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36" version="27.0.8">
   <diagram name="Page-1" id="DAlL9azcmivqT7BUPE3T">
-    <mxGraphModel dx="440" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="720" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XvwdnCTAwuaWv32Vh5Io-1" value="ViewModel" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="525" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LsUQLsUqXeWdT-1OvRIK-1" value="View" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LsUQLsUqXeWdT-1OvRIK-2" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LsUQLsUqXeWdT-1OvRIK-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="XvwdnCTAwuaWv32Vh5Io-1" target="LsUQLsUqXeWdT-1OvRIK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="434" as="sourcePoint" />
+            <mxPoint x="750" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LsUQLsUqXeWdT-1OvRIK-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="LsUQLsUqXeWdT-1OvRIK-1" target="XvwdnCTAwuaWv32Vh5Io-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="479.9999999999999" as="sourcePoint" />
+            <mxPoint x="480" y="544.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
